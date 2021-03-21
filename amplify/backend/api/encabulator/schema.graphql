@@ -1,0 +1,9 @@
+type Asset @model {
+  id: ID!
+  name: String!
+  description: String
+  manufact: String
+  manufact_model: String
+  organization: String
+  asset_type: String
+}
